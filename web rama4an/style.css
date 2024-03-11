@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(bg1.png);
+    background-size: cover;
+}
+.rama4an{
+    background: rgba(165, 150, 150, 0.74);
+    margin-left: -86.2%;
+    height: 100%;
+    width: 15%;
+}
+.rama4an div{
+    margin: 0 37px;
+    font-size: 2.5rem;
+    position: relative;
+    text-align: center;
+    margin-top: 30%;
+    width: 120px;
+    
+}
+.rama4an div::before{
+    position: absolute;
+    bottom: -30px;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    width: 100%;
+    background: rgb(0, 255, 255);
+    left: 0;
+}
+
+.rama4an #day::before{
+    content: 'Days';
+}
+
+.rama4an #hour::before{
+    content: 'Hours';
+}
+
+.rama4an #minute::before{
+    content: 'Minutes';
+}
+
+.rama4an #second::before{
+    content: 'Seconds';
+}
+footer{
+    background: transparent;
+    bottom: 0;
+    position: absolute;
+    background: rgba(165, 150, 150, 0.74);
+    margin-left: 14%;
+    width: 85.2%;
+  
+}
+footer p{
+    margin-left: -15%;
+    color: brown;
+}
+footer h3{
+    color: rgb(255, 255, 255);
+    margin-left: -15%;
+}
+
+footer a{
+    color: rgb(255, 0, 0);
+    
+}
